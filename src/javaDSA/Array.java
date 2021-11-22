@@ -72,8 +72,11 @@ public class Array {
                 System.out.println("Wrong Number!!");
                 break;
             }
+            System.out.println("Wish to continue ? 1/0");
+            n = sc.nextInt();
 
         }
         sc.close();
+
     }
 }
