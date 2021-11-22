@@ -14,6 +14,6 @@ public class Hello {
             c = a * a;
         }
         System.out.println("Sum of two numbers is " + c);
-
+        sc.close();
     }
 }

@@ -11,7 +11,7 @@ public class pgm1 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your name : ");
         st = sc.next();
-        System.out.println("\n");
-
+        System.out.println(st + "\n");
+        sc.close();
     }
 }
