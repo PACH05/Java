@@ -2,7 +2,7 @@ package javaDSA;
 
 import java.util.Scanner;
 
-//This program shows the concepts of for-each loop and various array operations
+//This program deals with the concepts of for-each loop and various array operations
 public class Array {
     public static void insert(int[] arr) {
         // Inserting array elements
