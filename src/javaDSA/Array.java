@@ -13,7 +13,7 @@ public class Array {
             System.out.println("Enter the element at position " + k);
             arr[i] = sc.nextInt();
         }
-        sc.close();
+
     }
 
     public static void print(int[] arr) {
@@ -27,6 +27,7 @@ public class Array {
     // Delete an element from the array
     public static void delete(int[] arr) {
         int n = arr.length;
+        int brr[] = new int[n - 1];
         Scanner s = new Scanner(System.in);
         int key;
         System.out.println("Enter the element to be deleted :");
@@ -39,11 +40,16 @@ public class Array {
                 }
                 System.out.println("Element deleted");
                 break;
-            } else {
+            } else if (i == arr.length - 1) {
                 System.out.println("Element not found!");
             }
         }
-        s.close();
+        for (int i = 0; i < brr.length; i++) {
+            brr[i] = arr[i];
+        }
+        System.out.println("After Deletion :");
+        print(brr);
+
     }
 
     public static void main(String[] args) {
@@ -76,7 +82,6 @@ public class Array {
             n = sc.nextInt();
 
         }
-        sc.close();
 
     }
 }
