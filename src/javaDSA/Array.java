@@ -18,6 +18,7 @@ public class Array {
 
     public static void print(int[] arr) {
         // Displaying array elements
+
         System.out.println("Array elements are :");
         for (int element : arr) {
             System.out.println(element);
