@@ -1,8 +1,8 @@
-package javaPractice2;
+package javaBasic2;
 
 import java.util.*;
 
-public class sort {
+public class Sort {
     public static void main(String[] args) {
         int[] ar = new int[10];
         System.out.println("Enter array elements");

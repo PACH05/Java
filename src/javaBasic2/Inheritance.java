@@ -1,4 +1,4 @@
-package javaPractice2;
+package javaBasic2;
 
 class pen {
     String color;
@@ -18,7 +18,7 @@ class dot extends pen {
 
 }
 
-public class oops2 {
+public class Inheritance {
     public static void main(String[] args) {
         // pen pen1 = new pen();
         dot pen2 = new dot();

@@ -1,4 +1,4 @@
-package javaPractice2;
+package javaBasic2;
 
 abstract class base {
     public base() {
@@ -21,7 +21,7 @@ class derived extends base {
     }
 }
 
-public class oopjava {
+public class AbstractClass {
     public static void main(String[] args) {
         derived obj = new derived();
         obj.greet();

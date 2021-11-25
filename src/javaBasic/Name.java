@@ -1,8 +1,8 @@
-package javaPractice2;
+package javaBasic;
 
 import java.util.*;
 
-public class pgm1 {
+public class Name {
 
     public static void main(String args[]) {
         System.out.println("Hello");
@@ -11,7 +11,7 @@ public class pgm1 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your name : ");
         st = sc.next();
-        System.out.println(st + "\n");
+        System.out.println("Hi " + st + "\n");
         sc.close();
     }
 }
