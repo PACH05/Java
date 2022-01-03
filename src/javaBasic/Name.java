@@ -9,9 +9,8 @@ public class Name {
         System.out.println("Hello");
         String st;
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your name : ");
-        st = sc.next();
-        System.out.println("Hi " + st + "\n");
+        System.out.println("Number is " + sc.nextInt());
+        System.out.println("Number is " + sc.next());
         sc.close();
     }
 }

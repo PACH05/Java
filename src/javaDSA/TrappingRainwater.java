@@ -1,5 +1,5 @@
 package javaDSA;
-import java.math.*;
+
 public class TrappingRainwater {
     int trappingWater(int a[], int n){
         n=a.length;

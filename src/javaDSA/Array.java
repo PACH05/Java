@@ -13,7 +13,7 @@ public class Array {
             System.out.println("Enter the element at position " + k);
             arr[i] = sc.nextInt();
         }
-
+     
     }
 
     public static void print(int[] arr) {
@@ -50,7 +50,7 @@ public class Array {
         }
         System.out.println("After Deletion :");
         print(brr);
-
+    
     }
 
     public static void main(String[] args) {
@@ -83,6 +83,6 @@ public class Array {
             n = sc.nextInt();
 
         }
-
+    
     }
 }
