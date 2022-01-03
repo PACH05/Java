@@ -1,7 +1,7 @@
-package javaBasic2;
+package javaBasic_and_OOP;
 
 import java.util.*;
-
+//This program demonstrates sorting an array given by user using in built sort() method
 public class Sort {
     public static void main(String[] args) {
         int[] ar = new int[10];

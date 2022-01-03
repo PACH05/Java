@@ -1,6 +1,6 @@
-package javaBasic2;
+package javaBasic_and_OOP;
 
-public class Oop{
+public class OopBasics{
     public static void main(String[] args) {
         System.out.println("Hello");
     }

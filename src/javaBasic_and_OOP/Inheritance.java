@@ -1,4 +1,4 @@
-package javaBasic2;
+package javaBasic_and_OOP;
 
 class pen {
     String color;
