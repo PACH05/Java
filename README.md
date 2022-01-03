@@ -1,3 +1,3 @@
 # Java
 
-Java programs from basic to Data Structures and Algorithms implementation.
+Java programs from the basics to various Data Structures and Algorithms implementation.
