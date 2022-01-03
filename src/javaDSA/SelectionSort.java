@@ -6,35 +6,29 @@ public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {4,5,1,2,3};
         System.out.println("Original array :" + Arrays .toString(arr));
-          select(arr);
+          sort(arr);
+          System.out.println("After Sorting :" + Arrays.toString(arr));
         }
     
-    public static void select(int[] ar){
-            for (int i = 0; i < ar.length; i++) {
-               int last = ar.length-i-1;
-               int maxind = getmax(ar, 0, last);
-               swap(ar, maxind, last);
+       public static void sort(int arr[])
+        {
+            int n = arr.length;
+            for (int i = 0; i < n-1; i++)
+            {
+                // Find the minimum element in unsorted array
+                int min_idx = i;
+                for (int j = i+1; j < n; j++)
+                    if (arr[j] < arr[min_idx])
+                        min_idx = j;
+              swap(arr, i, min_idx);
             }
-          System.out.println("After Sorting : " + Arrays.toString(ar));
-    }
+        }
     static void swap(int[] arr, int first, int end){
-                int temp = arr[first];
-                arr[first]=arr[end];
-                arr[end]=temp;
 
-                // arr[first]^=arr[end];
-                // arr[end]^=arr[first];
-                // arr[first]^=arr[end];
+                arr[first] = arr[first] ^ arr[end];
+                arr[end] = arr[first] ^ arr[end];
+                arr[first] = arr[first] ^ arr[end];
     }
-    private static int getmax(int[] ar, int start, int last) {
-            int max=start;
-            for (int i = start; i <= last; i++) {
-                if(ar[max] < ar[i]){
-                    max=i;
-                }
-            }
-                return max;
-            }
-           
+
     }
 
