@@ -7,7 +7,7 @@ public class Name {
 
     public static void main(String args[]) {
         System.out.println("Hello");
-        String st;
+        //String st;
         Scanner sc = new Scanner(System.in);
         System.out.println("Number is " + sc.nextInt());
         System.out.println("Number is " + sc.next());
