@@ -39,7 +39,7 @@ public class Tree {
 		q.add(root);
 
 		while (!q.isEmpty()) {
-			int size = q.size();
+			int size = q.size(); //To check how many nodes are there at each level
 			for (int i = 0; i < size; i++) {
 				Node temp = q.poll();
 				if (temp.left != null) {
