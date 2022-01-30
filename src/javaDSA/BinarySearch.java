@@ -22,10 +22,8 @@ public class BinarySearch {
         }
         // if we reach here, then element was
         // not present
-
         return -1;
     }
-
     public static void main(String[] args) {
         int x, size;
         Scanner sc = new Scanner(System.in);
