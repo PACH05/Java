@@ -14,17 +14,19 @@ public class Tree {
 		// levelOrder(root);
 		printleafnode(root);
 	}
-	  static void printleafnode(Node root){
-		if (root==null) {
+
+	static void printleafnode(Node root) {
+		if (root == null) {
 			return;
 		}
-		if(root.left== null && root.right==null){
+		if (root.left == null && root.right == null) {
 			System.out.println(root.data);
 		}
 		printleafnode(root.left);
 		printleafnode(root.right);
-	
+
 	}
+
 	static void preOrder(Node root) {
 		if (root == null) {
 			return;
@@ -39,7 +41,7 @@ public class Tree {
 		q.add(root);
 
 		while (!q.isEmpty()) {
-			int size = q.size(); //To check how many nodes are there at each level
+			int size = q.size(); // To check how many nodes are there at each level
 			for (int i = 0; i < size; i++) {
 				Node temp = q.poll();
 				if (temp.left != null) {
@@ -53,14 +55,53 @@ public class Tree {
 			System.out.println();
 		}
 	}
-	static void inorder(Node root){
-		if(root==null){
+
+	//inorder traversal of tree
+	public static void inOrder(Node root) {
+	if(root==null) return;
+	inOrder(root.left);
+	System.out.print(root.data+" ");
+	inOrder(root.right);
+	
+	}
+
+    //Vertical order traversal of a binary tree 
+	static void verticalOrder(Node root) {
+		if (root == null) {
 			return;
 		}
-		inorder(root.left);
-		System.out.println(root.data+ "");
-		inorder(root.right);
-}
+		Map<Integer, List<Integer>> map = new HashMap<>();
+		Queue<Node> q = new LinkedList<>();
+		q.add(root);
+		q.add(null);
+		int hd = 0;
+		while (!q.isEmpty()) {
+			Node temp = q.poll();
+			if (temp == null) {
+				if (!q.isEmpty()) {
+					q.add(null);
+					hd++;
+				}
+			} else {
+				if (map.containsKey(hd)) {
+					map.get(hd).add(temp.data);
+				} else {
+					List<Integer> list = new ArrayList<>();
+					list.add(temp.data);
+					map.put(hd, list);
+				}
+				if (temp.left != null) {
+					q.add(temp.left);
+				}
+				if (temp.right != null) {
+					q.add(temp.right);
+				}
+			}
+		}
+		for (Map.Entry<Integer, List<Integer>> entry : map.entrySet()) {
+			System.out.println(entry.getKey() + " " + entry.getValue());
+		}
+	}
 }
 
 class Node {

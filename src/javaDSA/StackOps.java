@@ -1,6 +1,6 @@
 package javaDSA;
 
-public class Stack {
+public class StackOps {
     public static void main(String[] args) {
       MyStack stk = new MyStack();
 	  stk.push(1);
