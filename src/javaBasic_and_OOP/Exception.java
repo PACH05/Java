@@ -13,6 +13,7 @@ public class Exception {
         int[] arr = new int[3];
 
         try {
+            @SuppressWarnings("unused")
             int i = arr[4];
 
             // this statement will never execute
@@ -22,7 +23,7 @@ public class Exception {
 
         catch (ArrayIndexOutOfBoundsException ex) {
             throw new ArrayIndexOutOfBoundsException();
-            //System.out.println("Exception caught in catch block");
+            // System.out.println("Exception caught in catch block");
         }
 
         finally {
