@@ -1,5 +1,4 @@
 package javaDSA;
-
 public class TrappingRainwater {
     int trappingWater(int a[], int n){
         n=a.length;
@@ -21,4 +20,5 @@ public class TrappingRainwater {
         return ans;
     }
 };
+
 

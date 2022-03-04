@@ -13,7 +13,7 @@ public class Array {
             System.out.println("Enter the element at position " + k);
             arr[i] = sc.nextInt();
         }
-     
+        sc.close();
     }
 
     public static void print(int[] arr) {
@@ -50,7 +50,7 @@ public class Array {
         }
         System.out.println("After Deletion :");
         print(brr);
-    
+        s.close();
     }
 
     public static void main(String[] args) {
@@ -66,23 +66,23 @@ public class Array {
             System.out.println("Enter your choice :");
             key = sc.nextInt();
             switch (key) {
-            case 1:
-                insert(arr);
-                break;
-            case 2:
-                print(arr);
-                break;
-            case 3:
-                delete(arr);
-                break;
-            default:
-                System.out.println("Wrong Number!!");
-                break;
+                case 1:
+                    insert(arr);
+                    break;
+                case 2:
+                    print(arr);
+                    break;
+                case 3:
+                    delete(arr);
+                    break;
+                default:
+                    System.out.println("Wrong Number!!");
+                    break;
             }
             System.out.println("Wish to continue ? 1/0");
             n = sc.nextInt();
 
         }
-    
+        sc.close();
     }
 }

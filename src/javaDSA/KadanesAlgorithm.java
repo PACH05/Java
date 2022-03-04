@@ -23,7 +23,7 @@ class KadanesAlgorithm {
 
         // calling maxSubarraySum() function
         System.out.println(obj.maxSubarraySum(arr, n));
-
+        sc.close();
     }
 }
 

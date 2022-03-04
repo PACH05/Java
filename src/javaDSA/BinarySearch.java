@@ -24,6 +24,7 @@ public class BinarySearch {
         // not present
         return -1;
     }
+
     public static void main(String[] args) {
         int x, size;
         Scanner sc = new Scanner(System.in);
@@ -45,5 +46,6 @@ public class BinarySearch {
         } else {
             System.out.println("Element found at index " + ele);
         }
+        sc.close();
     }
 }

@@ -56,16 +56,17 @@ public class Tree {
 		}
 	}
 
-	//inorder traversal of tree
+	// inorder traversal of tree
 	public static void inOrder(Node root) {
-	if(root==null) return;
-	inOrder(root.left);
-	System.out.print(root.data+" ");
-	inOrder(root.right);
-	
+		if (root == null)
+			return;
+		inOrder(root.left);
+		System.out.print(root.data + " ");
+		inOrder(root.right);
+
 	}
 
-    //Vertical order traversal of a binary tree 
+	// Vertical order traversal of a binary tree
 	static void verticalOrder(Node root) {
 		if (root == null) {
 			return;
@@ -102,15 +103,15 @@ public class Tree {
 			System.out.println(entry.getKey() + " " + entry.getValue());
 		}
 	}
-}
 
-class Node {
-	int data;
-	Node left;
-	Node right;
+	static class Node {
+		int data;
+		Node left;
+		Node right;
 
-	public Node(int data) {
-		this.data = data;
-		left = right = null;
+		public Node(int data) {
+			this.data = data;
+			left = right = null;
+		}
 	}
 }

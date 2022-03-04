@@ -8,13 +8,15 @@ public class GCD {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int ans = findgcd(a,b);
+        int ans = findgcd(a, b);
         System.out.println("GCD : " + ans);
+        sc.close();
     }
 
-    private static int findgcd(int a,int b){
-        if(b==0) return a;
-        
-        return findgcd(b, a%b);
+    private static int findgcd(int a, int b) {
+        if (b == 0)
+            return a;
+
+        return findgcd(b, a % b);
     }
 }
