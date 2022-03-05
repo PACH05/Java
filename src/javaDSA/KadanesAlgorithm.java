@@ -29,7 +29,7 @@ class KadanesAlgorithm {
 
 // } Driver Code Ends
 
-class Solution {
+class Solution1 {
 
     // arr: input array
     // n: size of array
