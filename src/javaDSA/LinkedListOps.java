@@ -17,14 +17,13 @@ public class LinkedListOps {
         }
         temp.next = newNode;
     }
-
+    
     public static void insertbeg(Node head, int data){
-        Node node = new Node(1);
+        Node node = new Node(data);
         node.data = data;
         node.next=head;
 
     }
-    
     public static void deletenode(Node head, int data){
     Node temp = head;
     Node prev = null;
@@ -35,7 +34,7 @@ public class LinkedListOps {
     prev.next = temp.next;
 
   }
-
+    // For Singly Linked Lists 
   static class Node{
     int data;
     Node next;
