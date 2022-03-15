@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.Scanner;
 
 //Maximum Contiguous Subarray Problem
-class KadanesAlgorithm {
+public class KadanesAlgorithm {
 
     public static void main(String[] args) throws IOException {
         // size of array
@@ -19,22 +19,19 @@ class KadanesAlgorithm {
             arr[i] = sc.nextInt();
         }
 
-        Solution obj = new Solution();
-
+        Solution1 obj = new Solution1();
+        int sum = obj.maxSubarraySum(arr,0);
         // calling maxSubarraySum() function
-        System.out.println(obj.maxSubarraySum(arr, n));
+        System.out.println(sum);
         sc.close();
     }
 }
-
 // } Driver Code Ends
-
 class Solution1 {
-
     // arr: input array
     // n: size of array
     // Function to find the sum of contiguous subarray with maximum sum.
-    long maxSubarraySum(int arr[], int n) {
+    public int maxSubarraySum(int arr[], int n) {
 
         // Your code here
         int meh = 0, msf = Integer.MIN_VALUE;
