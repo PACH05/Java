@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class InsertionSort {
     static int[] arr = {5,3,4,2,1};

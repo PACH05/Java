@@ -1,10 +1,12 @@
+package javaprograms;
 import java.util.ArrayList;
 
 
 public class MoveZeroes {
     public static void main(String[] args){
 
-        int[] arr = {1,8,0,9,7,0,8,3,0,5};
+        int arr[] = {1,8,0,9,7,0,8,3,0,5};
+        
         moveZeroes(arr);
     }
 

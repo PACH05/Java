@@ -1,8 +1,9 @@
+package javaBasic_and_OOP;
 import java.util.Scanner;
 
-public class Test {
+public class ImplicitTypecasting {
     public static void main(String[] args) {
-        float a;
+        float a = 0;
         Scanner sc = new Scanner(System.in);
         a=sc.nextInt();
         System.out.println(a);
