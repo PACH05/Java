@@ -3,6 +3,7 @@ package javaDSA;
 import java.util.Arrays;
 import java.util.HashMap;
 
+//This is the solution of a Leetcode question "Two Sum"
 public class TwoSum {
     public static void main(String[] args) {
         int[] arr = {1,2,1,8,3,5,6};
