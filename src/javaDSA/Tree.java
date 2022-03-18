@@ -12,7 +12,8 @@ public class Tree {
 		root.right.left = new Node(6);
 		root.right.right = new Node(7);
 		// levelOrder(root);
-		printleafnode(root);
+		// printleafnode(root);
+		inOrder(root);
 	}
 
 	static void printleafnode(Node root) {
