@@ -9,8 +9,11 @@ public class Name {
         System.out.println("Hello");
         //String st;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Number is " + sc.nextInt());
-        System.out.println("Number is " + sc.next());
+        int a = sc.nextInt();
+        System.out.println(a);
+        System.out.println(System.identityHashCode(a));
+        // System.out.println("Number is " + sc.nextInt());
+        // System.out.println("Number is " + sc.next());
         sc.close();
     }
 }
