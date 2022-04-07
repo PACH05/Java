@@ -1,8 +1,9 @@
-package javaDSA;
+package javaDSA2;
 
 import java.util.*;
-//Level order traversal of a binary tree
-public class LevelOrder {
+
+//Zigzag Order Traversal of a Binary Tree
+public class ZigzagTraversal {
     public static void main(String[] args) {
         Node root = new Node(1); // 1
         root.left = new Node(2); // 2 3
@@ -12,7 +13,7 @@ public class LevelOrder {
         root.left.right = new Node(5);
         root.right.right = new Node(7);
         List<List<Integer>> li = new ArrayList<>();
-        li = levelordertraversal(root);
+        li = zigzagordertraversal(root);
         for (List<Integer> l1 : li) {
             for (int n : l1) {
                 System.out.print(n + " ");
@@ -21,10 +22,10 @@ public class LevelOrder {
             System.out.println();
         }
     }
-
-    public static List<List<Integer>> levelordertraversal(Node root) {
+    public static List<List<Integer>> zigzagordertraversal(Node root) {
         List<List<Integer>> ans = new ArrayList<>();
         Queue<Node> q = new LinkedList<>();
+        boolean flag = false;
         if (root == null)
             return ans;
         q.offer(root);
@@ -32,25 +33,37 @@ public class LevelOrder {
             int levelsize = q.size();
             List<Integer> l = new LinkedList<>();
             for (int i = 0; i < levelsize; i++) {
-                if (q.peek().left != null)
-                    q.offer(q.peek().left);
-                if (q.peek().right != null)
-                    q.offer(q.peek().right);
-                l.add(q.poll().data);
-            }
-            ans.add(l);
+                Node node = q.poll();
+                if (flag) {
+                    l.add(0, node.data);
+                }
+                else {
+                    l.add(node.data);
+                }
+                if (node.left != null) {
+                    q.add(node.left);
+                }
+                if (node.right != null) {
+                    q.add(node.right);
+                }
+          }
+            flag = !flag;
+            ans.add(l); 
         }
         return ans;
     }
-
     static class Node {
         int data;
         Node right;
         Node left;
-
+    
         public Node(int data) {
             this.data = data;
             left = right = null;
         }
     }
 }
+
+
+
+

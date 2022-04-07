@@ -39,7 +39,7 @@ class Derived extends Base {
     //[Runtime Polymorphism]
     @Override
     public void greet() {
-        System.out.println("Namaste Java");
+        System.out.println("Hi Java");
     }
 }
 
