@@ -21,10 +21,10 @@ public class BFSTraversal {
                 while (!q.isEmpty()) {
                     int node = q.poll();
                     result.add(node);
-                    for (Integer inte : graph.get(node)) {
-                        if (!visited[inte]) {
-                            q.add(inte);
-                            visited[inte] = true;
+                    for (Integer integer : graph.get(node)) {
+                        if (!visited[integer]) {
+                            q.add(integer);
+                            visited[integer] = true;
                         }
                     }
                 }

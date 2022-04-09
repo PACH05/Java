@@ -82,7 +82,6 @@ public class Knapsack0_1 {
                     K[i][w] = K[i - 1][w];
             }
         }
-  
         return K[n][W];
     } 
 }

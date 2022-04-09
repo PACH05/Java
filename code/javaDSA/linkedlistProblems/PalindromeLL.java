@@ -1,8 +1,9 @@
 package javaDSA.linkedlistProblems;
-import java.util.*;
+import java.util.Stack;
 
 
 public class PalindromeLL{    
+
     public static void main(String[] args) {
         Node node = new Node(1);
         node.next = new Node(2);
