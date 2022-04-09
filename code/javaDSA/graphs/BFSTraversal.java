@@ -2,10 +2,12 @@ package javaDSA.graphs;
 
 import java.util.*;
 
-public class Graph1 {
+public class BFSTraversal {
 
     public static void main(String[] args) {
-        System.out.println("Hello");
+        ArrayList<ArrayList<Integer>> graph = new ArrayList<>();
+        int V = 5;
+        BFS(V, graph);
     }
 // BFS traversal of a graph
     public static ArrayList<Integer> BFS(int V, ArrayList<ArrayList<Integer>> graph) {
