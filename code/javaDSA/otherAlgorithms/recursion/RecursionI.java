@@ -1,4 +1,4 @@
-package javaDSA.other_algorithms.recursion;
+package javaDSA.otherAlgorithms.recursion;
 
 //Easy Recursion problems 
 public class RecursionI {

@@ -9,9 +9,9 @@ public class SumofTwoNumbers {
         System.out.println("Enter two number :");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int c = 0;
-        c = a + b;
-        System.out.println("Sum of two numbers is " + c); // Plus sign used to concatenate the output
+        int sum = 0;
+        sum = a + b;
+        System.out.println("Sum of two numbers is " + sum); // Plus sign used to concatenate the output
         sc.close();
     }
 }

@@ -1,4 +1,4 @@
-package javaDSA.array_problems;
+package javaDSA.arrayProblems;
 import java.util.*;
 public class Arrayrev {
     public static void main(String[] args) {

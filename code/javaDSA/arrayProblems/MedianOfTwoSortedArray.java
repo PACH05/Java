@@ -1,4 +1,4 @@
-package javaDSA.array_problems;
+package javaDSA.arrayProblems;
 
 public class MedianOfTwoSortedArray {
     static double Medianofarrays(int[] nums1, int[] nums2) {

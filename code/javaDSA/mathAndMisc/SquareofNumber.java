@@ -1,4 +1,4 @@
-package javaDSA.math_and_misc;
+package javaDSA.mathAndMisc;
 
 import java.util.function.Function;
 //This program shows the use of lambda functions in Java using generics 

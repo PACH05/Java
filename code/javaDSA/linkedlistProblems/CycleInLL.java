@@ -1,4 +1,4 @@
-package javaDSA.linkedlist_problems;
+package javaDSA.linkedlistProblems;
 
 public class CycleInLL {
     public static void main(String[] args) {

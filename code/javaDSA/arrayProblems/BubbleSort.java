@@ -1,4 +1,4 @@
-package javaDSA.array_problems;
+package javaDSA.arrayProblems;
 
 public class BubbleSort {
   public static void main(String[] args) {

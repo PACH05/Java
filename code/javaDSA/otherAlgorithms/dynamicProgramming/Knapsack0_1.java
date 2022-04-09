@@ -1,4 +1,4 @@
-package javaDSA.other_algorithms.dynamicProgramming;
+package javaDSA.otherAlgorithms.dynamicProgramming;
 
 //Solution of the 0-1 Knapsack Problem
 public class Knapsack0_1 {

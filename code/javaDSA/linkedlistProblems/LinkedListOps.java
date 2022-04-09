@@ -1,4 +1,4 @@
-package javaDSA.linkedlist_problems;
+package javaDSA.linkedlistProblems;
 
 public class LinkedListOps {
 

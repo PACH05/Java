@@ -1,4 +1,4 @@
-package javaDSA.other_algorithms.dynamicProgramming;
+package javaDSA.otherAlgorithms.dynamicProgramming;
 
 // Program to demonstrate fibonacci Series using Dynamic Programming
 public class FibDp {

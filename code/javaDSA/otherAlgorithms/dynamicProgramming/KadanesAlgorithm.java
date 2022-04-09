@@ -1,4 +1,4 @@
-package javaDSA.other_algorithms.dynamicProgramming;
+package javaDSA.otherAlgorithms.dynamicProgramming;
 
 import java.io.*;
 import java.util.Scanner;

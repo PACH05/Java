@@ -1,4 +1,4 @@
-package javaDSA.array_problems;
+package javaDSA.arrayProblems;
 
 import java.util.*;
 //This program demonstrates sorting an array given by user using in built sort() method

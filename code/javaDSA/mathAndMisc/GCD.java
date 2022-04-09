@@ -1,4 +1,4 @@
-package javaDSA.math_and_misc;
+package javaDSA.mathAndMisc;
 
 import java.util.Scanner;
 

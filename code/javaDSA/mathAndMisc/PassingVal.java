@@ -1,4 +1,4 @@
-package javaDSA.math_and_misc;
+package javaDSA.mathAndMisc;
 
 public class PassingVal {
     public static void main(String[] args) {

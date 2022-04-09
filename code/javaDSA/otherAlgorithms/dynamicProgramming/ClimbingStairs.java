@@ -1,4 +1,4 @@
-package javaDSA.other_algorithms.dynamicProgramming;
+package javaDSA.otherAlgorithms.dynamicProgramming;
 
 //Leetcode question
 //Stairs can be crossed either by crossing 1 at a time or 2 at a time
