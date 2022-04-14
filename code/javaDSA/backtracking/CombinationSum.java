@@ -29,7 +29,7 @@ public class CombinationSum {
         if(arr[index]<=target){
             list.add(arr[index]);
             helper(index, arr, target-arr[index],result, list);
-            list.remove(list.size()-1);
+            list.remove(list.size()-1); // Backtracking Step
         }
         helper(index+1,arr,target,result,list);
     }
