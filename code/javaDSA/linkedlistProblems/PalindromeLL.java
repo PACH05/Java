@@ -33,13 +33,14 @@ public class PalindromeLL{
            head = head.next;
        }
     } 
-}
-
-class Node{
-    int data;
-    Node next;
-    Node(int data){
-        this.data = data;
-        this.next = null;
+    static class Node{
+        int data;
+        Node next;
+        Node(int data){
+            this.data = data;
+            this.next = null;
+        }
     }
 }
+
+
