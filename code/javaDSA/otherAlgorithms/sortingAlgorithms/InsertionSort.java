@@ -1,4 +1,4 @@
-package javaDSA.arrayProblems;
+package javaDSA.otherAlgorithms.sortingAlgorithms;
 
 import java.util.*;
 

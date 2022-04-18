@@ -1,4 +1,4 @@
-package javaDSA.arrayProblems;
+package javaDSA.otherAlgorithms.sortingAlgorithms;
 
 public class BubbleSort {
   public static void main(String[] args) {
