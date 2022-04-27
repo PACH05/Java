@@ -1,4 +1,4 @@
-package javaDSA.stacks;
+package javaDSA.stackQuestions;
 
 public class StackOps {
     public static void main(String[] args) {

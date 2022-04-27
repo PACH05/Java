@@ -1,4 +1,4 @@
-package javaDSA.stacks;
+package javaDSA.stackQuestions;
 
 import java.util.Scanner;
 import java.util.Stack;
