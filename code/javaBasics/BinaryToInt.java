@@ -8,10 +8,10 @@ public class BinaryToInt {
     public static void main(String[] args) throws NumberFormatException, IOException {
         //Binary to integer(hard coding)
         binaryToInt();
-        //Using Wrapper class
+        // Binary to Integer Using Wrapper class
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int a = Integer.parseInt(br.readLine(),2);
-        System.out.println(a);
+        int a = Integer.parseInt(br.readLine(),2); // Takes the binary number as input
+        System.out.println(a); // Gives corresponding integer value as output
     }
 
     private static void binaryToInt() {

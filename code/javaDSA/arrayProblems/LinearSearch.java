@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 // Thi program deals with the concept of Linear Search in an array
 public class LinearSearch {
-
     public static void main(String[] args) {
         int size, key, k;
         Scanner sc = new Scanner(System.in);
@@ -18,6 +17,8 @@ public class LinearSearch {
         }
         System.out.println("Enter the element to be searched : \n");
         key = sc.nextInt();
+
+        
         // Linear Search
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == key) {

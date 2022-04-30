@@ -11,12 +11,10 @@ public class StackOps {
 	  stk.diplay();
     }
 }
-
 class MyStack
 {
     int top;
 	int arr[] = new int[1000];
-
     MyStack()
 	{
 		top = -1;
@@ -38,7 +36,6 @@ class MyStack
 		}
 		return arr[top+1];
 	}
-
 	public void diplay()
 	{
 		System.out.println("Stack Elements :");

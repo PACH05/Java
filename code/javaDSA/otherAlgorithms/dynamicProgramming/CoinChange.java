@@ -11,7 +11,7 @@ public class CoinChange {
         int[] coin = {1,3,5};
         int target= 12;
         // coinchange(ans, res, coin, target, 0);
-        coinchangememo(ans, res, coin, target, 0);
+        coinchangedp(ans, res, coin, target, 0);
         for (List<Integer>  i : ans) {
             System.out.println(i);
             
@@ -34,8 +34,10 @@ public class CoinChange {
 
         return;
     }
-    //Dynamic Programming(Memoization)
-    private static void coinchangememo( List<List<Integer>> ans, List<Integer> res, int[] coin, int target, int index){
+    //Dynamic Programming(Tabulation)
+    private static void coinchangedp( List<List<Integer>> ans, List<Integer> res, int[] coin, int target, int index){
+        int dp[][] = new int [coin.length+1][target+1];
+        
         
     }
 
