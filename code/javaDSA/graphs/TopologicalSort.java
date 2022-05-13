@@ -1,7 +1,6 @@
 package javaDSA.graphs;
 // A Java program to print topological
 // sorting of a DAG
-import java.io.*;
 import java.util.*;
 
 // This class represents a directed graph
