@@ -21,5 +21,4 @@ public class GridPathCount {
         
         return right+ down;
     }
-    
 }
