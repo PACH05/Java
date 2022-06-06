@@ -1,4 +1,4 @@
-package javaBasics.patterns;
+package javaBasics.questions;
 
 public class Pattern1 {
 
