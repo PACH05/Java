@@ -1,4 +1,3 @@
-package javaDSA.trees;
 
 import java.util.*;
 //Level order traversal of a binary tree

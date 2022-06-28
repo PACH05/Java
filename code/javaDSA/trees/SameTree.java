@@ -1,4 +1,3 @@
-package javaDSA.trees;
 
 //Leetcode question Same Tree
 public class SameTree {

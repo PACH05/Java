@@ -1,4 +1,4 @@
-package javaDSA.trees;
+
 
 //Leetcode problem Height of a Binary Tree
 public class HeightOfBT {
