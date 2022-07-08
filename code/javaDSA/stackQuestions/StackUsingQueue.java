@@ -33,6 +33,9 @@ class Solution{
         }
     }
 
+    /**
+     * @return
+     */
     public int pop(){
         int num = 0;
         if(q2.isEmpty()){

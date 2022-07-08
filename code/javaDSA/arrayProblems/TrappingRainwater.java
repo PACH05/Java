@@ -1,4 +1,5 @@
 package javaDSA.arrayProblems;
+
 public class TrappingRainwater {
     int trappingWater(int a[], int n){
         n=a.length;
