@@ -3,7 +3,7 @@ package javaDSA.trees;
 
 //Leetcode problem Height of a Binary Tree
 public class HeightOfBT {
-    int height(Node node) 
+    public static int height(Node node) 
     {
         if(node==null){
             return 0;
@@ -13,6 +13,7 @@ public class HeightOfBT {
         
         return Math.max(left, right) + 1;
     }
+    
     static class Node{
         int data;
         Node left;

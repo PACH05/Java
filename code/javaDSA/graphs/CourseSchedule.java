@@ -8,12 +8,12 @@ public class CourseSchedule {
     public static void main(String[] args) {
         int numCourses = 2;
         int[][] prerequesites = {{0,1}};
-
         boolean flag = isPossible(numCourses, prerequesites);
         System.out.println(flag);
     }
 
-    // BFS Kahn's Algorithm
+    // BFS using Kahn's Algorithm
+
     private static boolean isPossible(int numCourses, int[][] prerequisites) {
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>();
         for(int i=0 ; i<numCourses ; i++){
