@@ -2,7 +2,7 @@ package javaDSA.graphs;
 
 public class DisjointSetUnion {
 
-    static int parent[] = new int[10];
+    static int parent[] = new int[10];    
     public static void main(String[] args) {
         make(1);
         make(2);
