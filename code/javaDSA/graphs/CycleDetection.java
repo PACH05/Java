@@ -31,8 +31,7 @@ public class CycleDetection {
             if(vis[it]==false){
                 checkCycle(it, node, vis, graph);
             }
-        }
-        
+        }       
         return false;
     }
 }
