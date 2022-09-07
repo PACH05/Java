@@ -6,7 +6,7 @@ public class MajorityElement {
         majorityElement(arr);
     }
 
-    // Brute Force
+    // Brute Force O(N²)
     public static int majorityElement(int[] nums) {
         int maj_ele = nums.length / 2;
         for (int num : nums) {
@@ -26,7 +26,7 @@ public class MajorityElement {
     public int majority(int nums[]) {
         int count = 0;
         Integer candidate = null;
-
+            //1 2 2 2 2 3 1 
         for (int num : nums) {
             if (count == 0) {
                 candidate = num;

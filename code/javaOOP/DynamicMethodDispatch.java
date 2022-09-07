@@ -1,5 +1,6 @@
 package javaOOP;
 
+//Dynamic Method Dispatch is also called Method Overriding
 public class DynamicMethodDispatch {
   public static void main(String[] args) {
       A a = new A();
