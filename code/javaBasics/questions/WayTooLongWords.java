@@ -1,7 +1,5 @@
 package javaBasics.questions;
 
-import java.io.*;
-
 import java.util.*;
 
 public class WayTooLongWords {

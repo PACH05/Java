@@ -1,4 +1,5 @@
 package javaBasics.codechefProblems;
+
 import java.util.Scanner;
 
 public class CpPrograms {
