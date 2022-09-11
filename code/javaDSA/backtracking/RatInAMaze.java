@@ -30,7 +30,7 @@ public class RatInAMaze {
          solveMaze(matrix, i-1, j, path + "U", ans);
          solveMaze(matrix, i, j+1, path + "R", ans);
          solveMaze(matrix, i, j-1, path + "L", ans);
-         matrix[i][j] = 1;
+         matrix[i][j] = 1; //Backtracking step
          
     }
 }

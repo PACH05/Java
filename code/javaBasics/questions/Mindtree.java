@@ -1,3 +1,5 @@
+package javaBasics.questions;
+
 public class Mindtree {
     public static void main(String[] args) {
         String str = "asfhdsu23$sdhfsd#";

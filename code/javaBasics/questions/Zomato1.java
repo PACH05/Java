@@ -2,7 +2,7 @@ package javaBasics.questions;
 
 // Paul has n numbers and she wants to create groups using those numbers. 
 // The size of the group can be one or two and the sum of numbers in the group cannot exceed x.
-// Help Paul find the minimum number of groups she can make.
+// Help Paul find the maximum number of groups she can make.
 
 // Input
 // The first input line contains two integers n and x: the count of numbers and the maximum allowed sum.
@@ -14,7 +14,7 @@ package javaBasics.questions;
 // p[i] <= x for all i
 
 // Output
-// Print one integer the minimum number of groups.
+// Print one integer the maximum number of groups.
 
 // Example
 // Sample Input
