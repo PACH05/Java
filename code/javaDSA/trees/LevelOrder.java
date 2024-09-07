@@ -11,6 +11,7 @@ public class LevelOrder {
         root.right.left = new Node(6);
         root.left.right = new Node(5);
         root.right.right = new Node(7);
+
         List<List<Integer>> li = new ArrayList<>();
         li = levelordertraversal(root);
         for (List<Integer> l1 : li) {
@@ -23,11 +24,15 @@ public class LevelOrder {
     }
 
     public static List<List<Integer>> levelordertraversal(Node root) {
+
         List<List<Integer>> ans = new ArrayList<>();
         Queue<Node> q = new LinkedList<>();
+
         if (root == null)
             return ans;
+
         q.offer(root);
+
         while (!q.isEmpty()) {
             int levelsize = q.size();
             List<Integer> l = new LinkedList<>();

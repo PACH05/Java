@@ -38,7 +38,6 @@ public class SearchInARotSortArr {
                 }
             }
         }
-
         return -1;
     }
 }

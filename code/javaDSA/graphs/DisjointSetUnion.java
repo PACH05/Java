@@ -1,5 +1,4 @@
 package javaDSA.graphs;
-
 public class DisjointSetUnion {
 
     static int parent[] = new int[10];    
